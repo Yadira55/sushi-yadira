@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Limpiar los estilos del navegador */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: #E9ED58;
+}
+header{
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+section#promo{
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/bg_bienvenida.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+section#contenidos{
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/fondoEspecialidades.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+section#ubicacion{
+	width: 100%;
+	height: 422px;
+	background-size: cover;
+	background-position: center bottom;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #A1C133;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+div#centrarNav, div#centrarHeader, div#centrarPromo, div#contenidos, div#ubicacion, div#centrarFooter{
+	width: 1200px;
+	height: 100%;
+	background-color: rgba(147,112,219,0.33);
+	margin: 0 auto;
+	position: relative;
+}
+div#face{
+	width: 11px;
+	height: 21px;
+	margin-left: 15px;
+	background-image: url("../img/redes/faceWhite.svg");
+}
+div#face:hover{
+	background-image: url("../img/redes/faceHover.svg");
+}
+div#twitter{
+	width: 23px;
+	height: 19px;
+	margin-left: 15px;
+	background-image: url("../img/redes/twitterWhite.svg");
+}
+div#twitter:hover{
+	background-image: url("../img/redes/twitterHover.svg");
+}
+div#insta{
+	width: 21px;
+	height: 21px;
+	margin-left: 15px;
+	background-image: url("../img/redes/inwhite.svg");
+}
+#div#insta:hover{
+	background-image: url("../img/redes/inHover.svg");
+}
