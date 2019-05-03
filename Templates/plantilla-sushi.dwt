@@ -2,27 +2,31 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Template Sushi</title>
-	<link rel="stylesheet" href="estilos-template/estilos-template.css"> <!--el orden no altera el codigo, este es igual al de abajo-->
-	<link href="fontkit/josefin-font.css" rel="stylesheet">
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../estilos-template/estilos-template.css"> <!--el orden no altera el codigo, este es igual al de abajo-->
+	<link href="../fontkit/josefin-font.css" rel="stylesheet">
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
 </head>
 
 <body>
 	<nav>
 		<div id="centrarNav">
-			<img src="img/sushi_logo.png">
+			<img src="../img/sushi_logo.png">
 			<ul id="menuPrincipal">
 				<li>
-					<a href="index.html">Inicio</a>
+					<a href="../index.html">Inicio</a>
 				</li>
 				<li>
-					<a href="galeria.html">Galería</a>
+					<a href="../galeria.html">Galería</a>
 				</li>
 				<li>
-					<a href="servicios.html">Servicios</a>
+					<a href="../servicios.html">Servicios</a>
 				</li>
 				<li>
-					<a href="contacto.html">Contacto</a>
+					<a href="../contacto.html">Contacto</a>
 				</li>
 			</ul>
 			<ul id="socialesTop">
@@ -49,14 +53,21 @@
 	</header>
 	<section id="promo">
 		<div id="centrarPromo">
-			<div id="boxPromo">
+			<div id="boxPromo"><!-- TemplateBeginEditable name="Promociones" -->
 				<h2>SIEMPRE UNA SORPRESA PENSADA PARA TI</h2>
 				<p>Descubre lo que tenemos preparado</p>
+				<!-- TemplateEndEditable -->
 			</div>
 		</div>
 	</section>
 	<section id="contenidos">
-		<div id="centrarContenidos"></div>
+		<div id="centrarContenidos">
+			<!-- TemplateBeginEditable name="Area de Contenidos" -->
+			Area de Contenidos
+			
+			
+			<!-- TemplateEndEditable -->
+		</div>
 	</section>
 	<section id="ubicacion">
 		<div id="centrarUbicacion">
@@ -68,21 +79,21 @@
 	<footer>
 		<div id="centrarFooter">
 			<div class="footerA">
-				<img src="img/sushi_logo.png">
+				<img src="../img/sushi_logo.png">
 			</div>
 			<div class="footerA">
 				<ul id="menuFooter">
 					<li>
-						<a href="index.html">Inicio</a>
+						<a href="../index.html">Inicio</a>
 					</li>
 					<li> 
-						<a href="galeria.html">Galería</a>
+						<a href="../galeria.html">Galería</a>
 					</li>
 					<li>
-						<a href="servicios.html">Servicios</a>
+						<a href="../servicios.html">Servicios</a>
 					</li>
 					<li>
-						<a href="contacto.html">Contacto</a>
+						<a href="../contacto.html">Contacto</a>
 					</li>
 				</ul>
 			</div>
