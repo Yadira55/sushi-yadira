@@ -1,16 +1,26 @@
 <!doctype html>
-<html>
+<html><!-- InstanceBegin template="/Templates/plantilla-sushi.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
 <title>Template Sushi</title>
-	<link rel="stylesheet" href="estilos-template/estilos-template.css"> <!--el orden no altera el codigo, este es igual al de abajo-->
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="estilos-template/estilos-template.css"> <!--el orden no altera el codigo, este es igual al de abajo-->
 	<link href="fontkit/josefin-font.css" rel="stylesheet">
+	<!-- InstanceBeginEditable name="head" -->
+	<link href="estilos-template/estilos-nuestros-servicios.css" rel="stylesheet">
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+	<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+	<!-- InstanceEndEditable -->
 </head>
 
 <body>
 	<nav>
 		<div id="centrarNav">
-			<img src="img/sushi_logo.png" alt="logo">
+			<img src="img/sushi_logo.png">
 			<ul id="menuPrincipal">
 				<li>
 					<a href="index.html">Inicio</a>
@@ -49,14 +59,50 @@
 	</header>
 	<section id="promo">
 		<div id="centrarPromo">
-			<div id="boxPromo">
+			<div id="boxPromo"><!-- InstanceBeginEditable name="Promociones" -->
 				<h2>SIEMPRE UNA SORPRESA PENSADA PARA TI</h2>
 				<p>Descubre lo que tenemos preparado</p>
+				<!-- InstanceEndEditable -->
 			</div>
 		</div>
 	</section>
 	<section id="contenidos">
-		<div id="centrarContenidos"></div>
+		<div id="centrarContenidos">
+			<!-- InstanceBeginEditable name="Area de Contenidos" -->
+			<h2 class="titulos">NUESTROS SERVICIOS</h2>
+			<div id="boxAcordeon">
+			  <div id="Accordion1">
+				  <h3><a href="#">Section 1</a></h3>
+				  <div>
+				    <p>Content 1</p>
+			    </div>
+				  <h3><a href="#">Section 2</a></h3>
+				  <div>
+				    <p>Content 2</p>
+			    </div>
+				  <h3><a href="#">Section 3</a></h3>
+				  <div>
+				    <p>Content 3</p>
+			    </div>
+				  <h3><a href="#">Paquete4</a></h3>
+				  <div>
+					  <h4>Titulo4</h4>
+					  <p><lor></lor></p>
+				  </div>
+			  </div>
+            </div>
+			
+			
+			<div id="boxTapa"></div>
+			
+			
+			<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+            </script>
+			<!-- InstanceEndEditable -->
+		</div>
 	</section>
 	<section id="ubicacion">
 		<div id="centrarUbicacion">
@@ -68,7 +114,7 @@
 	<footer>
 		<div id="centrarFooter">
 			<div class="footerA">
-				<img src="img/sushi_logo.png" alt="logo"> <!--se pone alt en todas las fotos o imágenes para saber de que trata por si no carga-->
+				<img src="img/sushi_logo.png">
 			</div>
 			<div class="footerA">
 				<ul id="menuFooter">
@@ -119,4 +165,4 @@
 	</footer>
 	
 </body>
-</html>
+<!-- InstanceEnd --></html>

@@ -42,38 +42,62 @@ div#sushi2:hover{
 	transform: scale(1.1); 
 }
 div#sushi3{
+	width: 100%;
+	height: 100%;
 	background-image: url("../img/especialidades/especialidad2.jpg");
+	transition: transform 0.35s;
 }
 div#sushi3:hover{
 	background-image: url("../img/especialidades/hover/especialidad2.jpg");
+	transform: scale(1.1); 
 }
 div#sushi4{
+	width: 100%;
+	height: 100%;
 	background-image: url("../img/especialidades/especialidad3.jpg");
+	transition: transform 0.35s;
 }
 div#sushi4:hover{
 	background-image: url("../img/especialidades/hover/especialidad3.jpg");
+	transform: scale(1.1); 
 }
 div#sushi5{
+	width: 100%;
+	height: 100%;
 	background-image: url("../img/especialidades/especialidad4.jpg");
+	transition: transform 0.35s;
 }
 div#sushi5:hover{
 	background-image: url("../img/especialidades/hover/especialidad4.jpg");
+	transform: scale(1.1); 
 }
 div#sushi6{
+	width: 100%;
+	height: 100%;
 	background-image: url("../img/especialidades/especialidad5.jpg");
+	transition: transform 0.35s;
 }
 div#sushi6:hover{
 	background-image: url("../img/especialidades/hover/especialidad5.jpg");
+	transform: scale(1.1); 
 }
 div#sushi7{
+	width: 100%;
+	height: 100%;
 	background-image: url("../img/especialidades/especialidad6.jpg");
+	transition: transform 0.35s;
 }
 div#sushi7:hover{
 	background-image: url("../img/especialidades/hover/especialidad6.jpg");
+	transform: scale(1.1); 
 }
 div#sushi8{
+	width: 100%;
+	height: 100%;
 	background-image: url("../img/especialidades/especialidad7.jpg");
+	transition: transform 0.35s;
 }
 div#sushi8:hover{
 	background-image: url("../img/especialidades/hover/especialidad7.jpg");
+	transform: scale(1.1); 
 }

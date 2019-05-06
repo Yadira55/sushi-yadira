@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 832px;
+}
+div#boxAcordeon{
+	width: 582px;
+	height: 558px;
+	background-color: aqua;
+	position: absolute;
+	top: 148px;
+	left: 0px;	
+}
+div#boxTapa{
+	width: 582px;
+	height: 558px;
+	background-color: aqua;
+	top: 148px;
+	left: 612px;
+	position: absolute;
+}
