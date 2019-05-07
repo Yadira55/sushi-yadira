@@ -7,14 +7,16 @@
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" href="estilos-template/estilos-template.css"> <!--el orden no altera el codigo, este es igual al de abajo-->
 	<link href="fontkit/josefin-font.css" rel="stylesheet">
-	<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceBeginEditable name="head" -->
 	<link href="estilos-template/estilos-nuestros-servicios.css" rel="stylesheet">
 	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
-	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
 	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 	<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
-	<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
-	<!-- InstanceEndEditable -->
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<!-- InstanceEndEditable -->
 </head>
 
 <body>
@@ -74,11 +76,15 @@
 			  <div id="Accordion1">
 				  <h3><a href="#">Section 1</a></h3>
 				  <div>
-				    <p>Content 1</p>
+					 <img src="img/caramel.png" alt="caramel" width="200">
+					  <h4 class="encabezadoAcordeon">Excepteur sint occaecat cupidatat non</h4>
+					  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
 			    </div>
 				  <h3><a href="#">Section 2</a></h3>
 				  <div>
-				    <p>Content 2</p>
+					  <img src="img/caramel.png" alt="caramel" width="200">
+					  <h4 class="encabezadoAcordeon">Excepteur sint occaecat cupidatat non</h4>
+					  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
 			    </div>
 				  <h3><a href="#">Section 3</a></h3>
 				  <div>
@@ -87,18 +93,54 @@
 				  <h3><a href="#">Paquete4</a></h3>
 				  <div>
 					  <h4>Titulo4</h4>
-					  <p><lor></lor></p>
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem similique modi perspiciatis recusandae, sapiente nobis, explicabo quis repellendus quae aut tenetur nostrum omnis necessitatibus amet odio labore, voluptas aliquid?</p>
 				  </div>
 			  </div>
             </div>
 			
 			
-			<div id="boxTapa"></div>
-			
+			<div id="boxTabs">
+			  <div id="Tabs1"> <!--este es el div al que se le aplica lo de webkit y aqui se pone para la animacion-->
+				  <ul>
+				    <li><a href="#tabs-1">Tab 1</a></li>
+				    <li><a href="#tabs-2">Tab 2</a></li>
+				    <li><a href="#tabs-3">Tab 3</a></li>
+					<li><a href="#tabs-4">Pestaña 4</a></li>
+			    </ul>
+				  <div id="tabs-1">
+					  <img src="img/tab1.jpg">
+				    <p>sLorem ipsum dolor sit amet, consectetur adipisicing elit. Quae qui inventore pariatur voluptatum omnis natus eligendi excepturi ut nulla atque cum rerum molestias, ullam ratione asperiores, suscipit doloribus iste quis. Recusandae ex nobis ad ducimus quos sunt enim, inventore quo fuga aliquid praesentium, facere ab, perferendis laudantium illo a? Repellat, sunt, quasi! Unde alias repellendus reprehenderit aperiam, eaque suscipit beatae. Tempore obcaecati amet hic, labore! Eum at numquam laborum quos consectetur asperiores assumenda est dicta aperiam ad reprehenderit, maxime corporis ipsam. Blanditiis molestiae nesciunt illum tempora, numquam ipsam nostrum quos mollitia quidem laboriosam iste sint itaque doloremque eius reprehenderit modi?</p>
+			    </div>
+				  <div id="tabs-2">
+					  <img src="img/tab2.jpg">
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et rem dolor excepturi quos culpa aperiam quam harum id laudantium fugiat incidunt rerum architecto explicabo vel provident perferendis laborum facilis possimus, repellat libero obcaecati ea, quasi quaerat nam. Cupiditate perspiciatis quaerat excepturi asperiores minima dolor fugiat necessitatibus, atque doloremque similique, provident, ipsum architecto, nisi at recusandae suscipit eos. Iure voluptatibus ullam suscipit culpa reiciendis, iusto explicabo quis necessitatibus placeat illum nesciunt, doloremque libero dolores est mollitia quidem odio voluptas soluta unde pariatur quo debitis beatae assumenda ab. Ipsa accusantium saepe animi eos pariatur mollitia, esse eius aspernatur, eum illo, expedita dolores.</p>
+			    </div>
+				  <div id="tabs-3">
+					  <img src="img/tab3.jpg">
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas recusandae, id voluptate debitis, minima eaque earum rem nulla culpa repudiandae non tenetur doloremque voluptates et odit nisi vel. Recusandae iste veritatis labore alias illum omnis architecto quasi nobis quis. Adipisci, ab enim. Natus accusamus explicabo qui molestias praesentium dignissimos, ea optio magnam culpa deserunt amet architecto aut, ipsa dolorem neque consequatur voluptate ipsam voluptates, doloremque maiores nemo facere perferendis.</p>
+			    </div>
+				  <div id="tabs-4">
+					  <img src="img/tab4.jpg">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium reiciendis reprehenderit nemo maxime facere quaerat ipsum esse, adipisci molestiae, vel recusandae! Sequi quasi nesciunt, aliquam ullam harum quia sint pariatur.</p>
+				  </div>
+			  </div>
+            </div>
 			
 			<script type="text/javascript">
 $(function() {
-	$( "#Accordion1" ).accordion(); 
+	$( "#Accordion1" ).accordion({
+		active:10,
+		heightStyle:"fill",
+		collapsible:true,
+		animate:{easing: "easeInOutCirc"}
+	}); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs({
+		heightStyle:"fill",
+		hide:{effect: "puff"},
+		show:{effect: "blind"}
+	}); 
 });
             </script>
 			<!-- InstanceEndEditable -->

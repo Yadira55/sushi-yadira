@@ -12,7 +12,7 @@ div#boxAcordeon{
 	top: 148px;
 	left: 0px;	
 }
-div#boxTapa{
+div#boxTabs{
 	width: 582px;
 	height: 558px;
 	background-color: aqua;
@@ -20,3 +20,26 @@ div#boxTapa{
 	left: 612px;
 	position: absolute;
 }
+div#Accordion1 img{
+	float: left;
+	margin-right: 20px;
+}
+div#Accordion1 h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+	color: tomato;
+}
+div#Accordion1 p{
+	font-size: 14px;
+	color: tomato;
+}
+div#Tabs1 p{
+	-webkit-column-count:2;
+	-webkit-column-gap: 15px;
+	column-count: 2;
+	column-gap: 15px;
+	font-size: 15px;
+	color: white; /*este se aplica en el div que contiene a todos las pestañas de las tabs, para no estarlo repitiendo una por una*/
+}
+
