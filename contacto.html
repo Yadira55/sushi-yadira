@@ -1,0 +1,172 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/plantilla-sushi.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Contacto Sushi</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="estilos-template/estilos-template.css"> <!--el orden no altera el codigo, este es igual al de abajo-->
+	<link href="fontkit/josefin-font.css" rel="stylesheet">
+	<!-- InstanceBeginEditable name="head" -->
+	<link rel="stylesheet" href="estilos-template/estilos-contacto.css">
+	<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<nav>
+		<div id="centrarNav">
+			<img src="img/sushi_logo.png">
+			<ul id="menuPrincipal">
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="galeria.html">Galería</a>
+				</li>
+				<li>
+					<a href="servicios.html">Servicios</a>
+				</li>
+				<li>
+					<a href="contacto.html">Contacto</a>
+				</li>
+			</ul>
+			<ul id="socialesTop">
+				<li>
+					<a href="http://facebook.com" target="_blank">
+						<div id="face"></div>
+					</a>	
+				</li>
+				<li>
+					<a href="http://twitter.com" target="_blank">
+						<div id="twitter"></div>
+					</a>
+				</li>
+				<li>
+					<a href="http://instagram.com" target="_blank">
+						<div id="insta"></div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<div id="centrarHeader"></div>
+	</header>
+	<section id="promo">
+		<div id="centrarPromo">
+			<div id="boxPromo"><!-- InstanceBeginEditable name="Promociones" -->
+				<h2>SIEMPRE UNA SORPRESA PENSADA PARA TI</h2>
+				<p>Descubre lo que tenemos preparado</p>
+				<!-- InstanceEndEditable -->
+			</div>
+		</div>
+	</section>
+	<section id="contenidos">
+		<div id="centrarContenidos">
+			<!-- InstanceBeginEditable name="Area de Contenidos" -->
+			<h2 class="titulos">CONTACTO</h2>
+			<div id="boxFormulario">
+				<form action="PHPMailer/contacto.php" method="post"> <!--aqui colocamos la ubicacion de la carpeta php-->
+				<table width="400" border="0">
+  <tbody>
+    <tr>
+      <td class="datos">Nombre</td> <!--esta es la primer que contiene el nombre y ls camps-->
+      <td><input type="text" class="campo" placeholder="Nombre" name="nombre" required></td>
+    </tr> <!--despues del placeholder se coloca el name tal cual como viene en el php-->
+    <tr>
+      <td class="datos">Email</td>
+      <td><input type="email" class="campo" placeholder="ejemplo@gmail.com" name="email" required></td>
+    </tr>
+    <tr>
+      <td class="datos">Teléfono</td>
+      <td><input type="tel" class="campo" placeholder="55 52 73 58" name="telefono" required></td>
+    </tr>
+    <tr>
+      <td class="datos">Mensaje</td>
+      <td><textarea class="campo" id="altura" placeholder="Deja tu mensaje" name="mensaje" required></textarea></td> <!--el required es para que te aparezca que es obligatorio llenar los datos antes de enviarlo-->
+    </tr>
+	  <tr>
+	  <td></td>
+		  <td>
+			  <input type="checkbox" id="aviso" value="Acepto el Aviso" name="aviso" required><!--aqui se pone el check para el aviso de provacidad-->
+			  <label for="aviso" id="avisoProvacidad">Acepto aviso de privacidad</label>
+		  </td>
+	  </tr>
+    <tr>
+      <td>&nbsp;</td> <!--este se deja en blanco porque no hay columna de ese lado-->
+      <td><input type="submit" class="enviar"></td> <!--este es el del botòn-->
+    </tr>
+  </tbody>
+</table>
+			</form> <!--aqui cierra el form del php-->
+			</div>
+			<div id="logoInformacion">
+				
+			</div>
+			
+			
+			<!-- InstanceEndEditable -->
+		</div>
+	</section>
+	<section id="ubicacion">
+		<div id="centrarUbicacion">
+			<div id="boxMapa">
+				<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.028770603005!2d-99.17937128484198!3d19.41116284639517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff433d8b7bc7%3A0x1f8e70b84895c65a!2sSushi+Roll+Condesa+II!5e0!3m2!1ses-419!2smx!4v1556812536638!5m2!1ses-419!2smx" width="676" height="322" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id="centrarFooter">
+			<div class="footerA">
+				<img src="img/sushi_logo.png">
+			</div>
+			<div class="footerA">
+				<ul id="menuFooter">
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li> 
+						<a href="galeria.html">Galería</a>
+					</li>
+					<li>
+						<a href="servicios.html">Servicios</a>
+					</li>
+					<li>
+						<a href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerA">
+				<ul id="socialesFooter">
+					<li>
+						<a href="http://facebook.com" target="_blank">
+							<div id="face2"></div>Facebook
+						</a>
+					</li>
+					<li>
+						<a href="http://twitter.com" target="_blank">
+							<div id="twit2"></div>Twitter
+						</a>
+					</li>
+					<li>
+						<a href="http://insagram.com" target="_blank">
+							<div id="insta2"></div>Instagram
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerB">
+				<h5>Subscribe to our newsletter</h5>
+				<input type="email" id="email" placeholder="ejemplo@gmail.com">
+				<input type="submit" id="enviar" value="Suscribir">
+			</div>
+			<div class="footerB">
+				<h6>497 Evergreen Rd. Roseville, CA 95673</h6>
+				<h6>+44 345 678 903</h6>
+				<h6>adobexd@mail.com</h6>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+<!-- InstanceEnd --></html>
